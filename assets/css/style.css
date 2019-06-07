@@ -1,0 +1,31 @@
+p{
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+}
+
+.wrapper {
+    padding-left: 2.5%;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 0.3in;
+    margin-bottom: 0.5in;
+    display: relative;
+    background-color: whitesmoke;
+    width: 750px;
+    height: 840px;
+    background-image: url("https://www.devprovider.com/wp-content/uploads/2018/10/wp2337016.jpg");
+}
+
+.header {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    color: black;
+}
+
+#button {
+    margin-left: 40%;
+    margin-top: 15px;
+}
