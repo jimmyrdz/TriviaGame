@@ -11,15 +11,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="assets/javascript/app.js"></script>
 </head>
 <body>
     
     <div class="wrapper">
 
-        <div class="header">$Cryptrivia Game</div>
+        <div class="header"><h1>$Cryptrivia Game</h1></div>
         
         <br></br>
-        <div class="quiz">
+        <form id="quiz" name="quiz">
             <p class="quetsions">Which of the following has an ATH sell price of ~$19,891.00?</p>
             <input type = "radio" id = "mc" name = "question1" value = "xrp"> Ripple<br>
             <input type = "radio" id = "mc" name = "question1" value = "eth"> Ethereum<br>
@@ -33,23 +34,22 @@
             <input type = "radio" id = "mc" name = "question2" value = "charlie"> Charlie Lee<br>
             <br></br>
             <p class="quetsions">What did the founder of Litecoin do that stirred up alot of controversy?</p>
-            <input type = "radio" id = "mc" name = "question3" value = "sell"> Sell all his Litecoin.<br>
+            <input type = "radio" id = "mc" name = "question3" value = "sold"> Sold all his Litecoin.<br>
             <input type = "radio" id = "mc" name = "question3" value = "left"> Left the company unannounced.<br>
             <input type = "radio" id = "mc" name = "question3" value = "stole"> Stole Litecoin from clients.<br>
             <input type = "radio" id = "mc" name = "question3" value = "gave"> Gave all his litecoin away.<br>
             <br></br>
             <p class="quetsions">Coinbase is NOT a digital currency exchange.</p>
-            <input type = "radio" id = "mc" name = "question4" value = "true">True<br>
-            <input type = "radio" id = "mc" name = "question4" value = "false">False<br>
+            <input type = "radio" id = "mc" name = "question4" value = "t">True<br>
+            <input type = "radio" id = "mc" name = "question4" value = "f">False<br>
 
             <input id = "button" type = "button" value = "Submit" onclick = "check();">
 
 
-        </div>
+        </form>
 
     </div>
-
-    <script src="assets/javascript/app.js"></script>
+    <p id = "number_correct"></p>
 </body>
 </html>
 
